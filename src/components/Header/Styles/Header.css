@@ -1,0 +1,110 @@
+.container {
+    max-width: 80%;
+    margin: auto;
+  }
+  .flex {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a {
+
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+  }
+ 
+  ul{
+    
+    list-style-type: none;
+  }
+ 
+ 
+  button {
+    border-radius: 5px;
+    padding: 17px 30px;
+    background-color: #27ae60;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+  }
+  button i{
+    margin-right: 5px;
+  }
+  header{
+    background-color: #fff;
+    height: 10vh;
+    box-shadow:  0 5px 30px rgb(0 22 84 /10%);
+    position:  sticky;
+    top: 0;
+    z-index: 999;
+  }
+  header img{
+    width: 90px;
+    height: 70px;
+  }
+  header a{
+
+    transition: 0.5s;
+    font-weight: 500;
+    margin-left: 30px;
+  }
+  header a :hover{
+    color: #27ae60;
+  }
+  header span {
+
+    width:  auto;
+    padding: 0 6px;
+    background-color: #27ae60;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    margin-right: 4px;
+  }
+  header h4{
+    margin-right: 4px;
+  }
+  header .toggle{
+
+    display: none;
+  }
+@media screen and ( max-width:768px) {
+  
+header{
+
+  padding: 0;
+
+}
+
+header .button{
+  display: none;
+}
+header .nav .flex{
+  display: none;
+}
+
+header .toggle{
+  display: block;
+  margin-top: 0px;
+}
+header .small{
+
+  position:  absolute;
+  top:  10vh;
+  left: 0;
+  background-color: #27ae60;
+  width: 100%;
+  padding: 20px;
+}
+header li a{
+
+  display:  inline-block;
+  color:  white;
+  margin-bottom: 20px;
+}
+
+}
